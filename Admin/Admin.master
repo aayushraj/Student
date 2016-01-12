@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/CSS/styles.css" />
+
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="Dashboard.aspx">Dashboard</a></li>
+                <li role="presentation"><a href="Student.aspx">Add Student</a></li>
+                <li role="presentation"><a href="#">Add Course</a></li>
+                <li role="presentation"><a href="#">Enrollment</a></li>
+
+            </ul>
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+            
+         
+
+            
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
