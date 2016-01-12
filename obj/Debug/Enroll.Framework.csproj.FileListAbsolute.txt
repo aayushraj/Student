@@ -1,0 +1,5 @@
+H:\LFA\Enroll.Framework\bin\Debug\Enroll.Framework.dll
+H:\LFA\Enroll.Framework\bin\Debug\Enroll.Framework.pdb
+H:\LFA\Enroll.Framework\obj\Debug\Enroll.Framework.dll
+H:\LFA\Enroll.Framework\obj\Debug\Enroll.Framework.pdb
+H:\LFA\Enroll.Framework\obj\Debug\Enroll.Framework.csprojResolveAssemblyReference.cache
